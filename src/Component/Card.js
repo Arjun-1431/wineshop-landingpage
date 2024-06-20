@@ -30,7 +30,7 @@ const Card = () => {
                                         <h2 className="card-title mb-3">{data.wine}</h2>
                                         <h3 className="card-text my-5">{data.text}</h3>
                                         <div className='d-block'>
-                                            <a href={data.link} className='btn btn-danger links' target="_blank" onMouseEnter={mousein} onMouseLeave={() => setText(data.wine)}>{text}</a>
+                                            <a href={data.link} className='btn btn-danger links' rel="noreferrer" onMouseEnter={mousein} onMouseLeave={() => setText(data.wine)}>{text}</a>
                                         </div>
                                     </div>
                                 </div>
