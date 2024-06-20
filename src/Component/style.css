@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner {
+    position: relative;
+    --bs-gutter-x: 0;
+}
+
+.header-title {
+    left: 29rem;
+    top: 20rem;
+
+}
+
+.header-title h2 {
+    font-size: 4rem;
+    mix-blend-mode: color;
+}
+
+.carousel-item {
+    opacity: 0.8;
+}
+
+.cardwine {
+    font-size: 1.3rem;
+    word-spacing: 6px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cardwine h2 {
+    font-size: 2rem;
+}
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cardwine a {
+    transition: 2s ease-in-out;
+}
